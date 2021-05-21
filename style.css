@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Open+Sans:wght@300&display=swap");
+
+body {
+	font-size: 1.5rem;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+}
+
+main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h2 {
+	font-family: "Merriweather", serif;
+}
+
+input,
+button {
+	width: 100%;
+	font-size: 1.2rem;
+	height: 3rem;
+	border-radius: 0.8rem;
+	outline: none;
+}
+
+input {
+	padding: 20px;
+	border: solid 2px grey;
+	margin: 1rem 0 1.5rem;
+}
+
+input:focus {
+	border-color: lightblue;
+}
+
+button {
+	padding: 15px;
+	background-color: lightblue;
+	border: none;
+	outline: none;
+	box-shadow: 0 0.5rem 0.6rem lightgrey;
+}
+
+button:hover {
+	background-color: #a3d2ca;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+	.main {
+		position: relative;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	body {
+		font-size: 0.5rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		font-size: 1rem;
+	}
+}
